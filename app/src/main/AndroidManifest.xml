@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="soexample.umeng.com.jindong20181107">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".application.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/jd_buy_icon"
+        android:label="伪京东"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShowActivity" />
+        <activity android:name=".SerachActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".DatailsActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".GetOrderActivity" />
+        <activity android:name=".AddressActivity" />
+        <activity android:name=".ShippingActivity" />
+        <activity android:name=".GetAddrsActivity"/>
+        <activity android:name=".AddAddrsActivity"></activity>
+    </application>
+
+</manifest>

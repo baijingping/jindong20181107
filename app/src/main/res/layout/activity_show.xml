@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/web"></WebView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ed0505"
+        android:text="加入购物车"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="340dp"
+        android:id="@+id/btn_cart"/>
+</RelativeLayout>
